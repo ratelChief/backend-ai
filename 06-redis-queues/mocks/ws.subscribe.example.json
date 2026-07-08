@@ -1,0 +1,17 @@
+# WS client sample payload (for manual testing with wscat / Postman)
+
+# After connect to ws://localhost:3000
+{
+  "event": "subscribe",
+  "data": { "room": "feed" }
+}
+
+# Expect server event:
+{
+  "event": "post.created",
+  "data": {
+    "id": "post_xx",
+    "title": "...",
+    "authorId": "..."
+  }
+}

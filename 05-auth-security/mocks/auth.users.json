@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "email": "admin@example.com",
+      "name": "Admin",
+      "role": "admin",
+      "password": "AdminPass123!"
+    },
+    {
+      "email": "alice@example.com",
+      "name": "Alice Writer",
+      "role": "user",
+      "password": "AlicePass123!"
+    },
+    {
+      "email": "bob@example.com",
+      "name": "Bob Editor",
+      "role": "user",
+      "password": "BobPass123!"
+    },
+    {
+      "email": "cara@example.com",
+      "name": "Cara Reader",
+      "role": "user",
+      "password": "CaraPass123!"
+    }
+  ]
+}

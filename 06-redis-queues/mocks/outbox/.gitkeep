@@ -1,0 +1,2 @@
+# Placeholder directory for mock SMTP outbox files written by your worker.
+# Your implementation should create files like: post_<id>_<timestamp>.json

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "note_01",
+    "title": "Nest modules",
+    "body": "Controllers talk to services; services hide storage.",
+    "tags": ["nest", "di"],
+    "createdAt": "2026-06-01T10:00:00.000Z",
+    "updatedAt": "2026-06-01T10:00:00.000Z"
+  },
+  {
+    "id": "note_02",
+    "title": "DTO validation",
+    "body": "class-validator on CreateNoteDto / UpdateNoteDto.",
+    "tags": ["nest", "validation"],
+    "createdAt": "2026-06-02T11:30:00.000Z",
+    "updatedAt": "2026-06-02T12:00:00.000Z"
+  },
+  {
+    "id": "note_03",
+    "title": "Swagger first",
+    "body": "Annotate DTOs and controllers; open /docs.",
+    "tags": ["openapi"],
+    "createdAt": "2026-06-03T09:15:00.000Z",
+    "updatedAt": "2026-06-03T09:15:00.000Z"
+  },
+  {
+    "id": "note_04",
+    "title": "Config boundaries",
+    "body": "PORT and NOTES_DEFAULT_LIMIT come from ConfigService.",
+    "tags": ["config"],
+    "createdAt": "2026-06-04T14:00:00.000Z",
+    "updatedAt": "2026-06-04T14:20:00.000Z"
+  },
+  {
+    "id": "note_05",
+    "title": "Migrate from Express",
+    "body": "Same HTTP contract as stage 02 for easier frontend reuse.",
+    "tags": ["api", "migration"],
+    "createdAt": "2026-06-05T08:45:00.000Z",
+    "updatedAt": "2026-06-05T08:45:00.000Z"
+  }
+]

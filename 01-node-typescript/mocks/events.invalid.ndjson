@@ -1,0 +1,6 @@
+{"id":"evt_bad_1","type":"login","userId":"u_100"}
+not-json-at-all
+{"id":"evt_bad_2","type":"unknown","userId":"u_100","ts":"2026-07-01T08:00:00.000Z"}
+{"id":"evt_bad_3","type":"purchase","userId":"u_100","ts":"2026-07-01T08:05:12.000Z","amountCents":"free","sku":"plan_pro"}
+{"id":"evt_ok","type":"logout","userId":"u_100","ts":"2026-07-01T08:10:00.000Z"}
+{"type":"login","userId":"u_200","ts":"2026-07-01T09:00:00.000Z"}

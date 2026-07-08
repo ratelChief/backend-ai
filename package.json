@@ -1,0 +1,34 @@
+{
+  "name": "backend-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Learning track: frontend → fullstack (Node.js / NestJS) by checklist stages",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "stage:01": "echo \"Work in 01-node-typescript — see TASK.md\"",
+    "stage:02": "echo \"Work in 02-http-express — see TASK.md\"",
+    "stage:03": "echo \"Work in 03-nestjs-foundation — see TASK.md\"",
+    "stage:04": "echo \"Work in 04-postgres-orm — see TASK.md\"",
+    "stage:05": "echo \"Work in 05-auth-security — see TASK.md\"",
+    "stage:06": "echo \"Work in 06-redis-queues — see TASK.md\"",
+    "stage:07": "echo \"Work in 07-testing — see TASK.md\"",
+    "stage:08": "echo \"Work in 08-docker-cicd — see TASK.md\"",
+    "stage:09": "echo \"Work in 09-architecture — see TASK.md\"",
+    "stage:10": "echo \"Work in 10-capstone — see TASK.md\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@types/node": "^24.0.0",
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.63.0"
+  }
+}

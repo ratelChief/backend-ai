@@ -1,0 +1,15 @@
+{"id":"evt_001","type":"login","userId":"u_100","ts":"2026-07-01T08:00:00.000Z"}
+{"id":"evt_002","type":"purchase","userId":"u_100","ts":"2026-07-01T08:05:12.000Z","amountCents":1999,"sku":"plan_pro"}
+{"id":"evt_003","type":"logout","userId":"u_100","ts":"2026-07-01T08:10:00.000Z"}
+{"id":"evt_004","type":"login","userId":"u_200","ts":"2026-07-01T09:00:00.000Z"}
+{"id":"evt_005","type":"purchase","userId":"u_200","ts":"2026-07-01T09:22:01.000Z","amountCents":499,"sku":"addon_storage"}
+{"id":"evt_006","type":"purchase","userId":"u_200","ts":"2026-07-01T09:30:00.000Z","amountCents":0,"sku":"trial"}
+{"id":"evt_007","type":"login","userId":"u_300","ts":"2026-07-02T10:00:00.000Z"}
+{"id":"evt_008","type":"logout","userId":"u_200","ts":"2026-07-02T11:00:00.000Z"}
+{"id":"evt_009","type":"purchase","userId":"u_300","ts":"2026-07-02T12:15:00.000Z","amountCents":9999,"sku":"plan_business"}
+{"id":"evt_010","type":"logout","userId":"u_300","ts":"2026-07-02T18:00:00.000Z"}
+{"id":"evt_011","type":"login","userId":"u_100","ts":"2026-07-03T07:30:00.000Z"}
+{"id":"evt_012","type":"purchase","userId":"u_100","ts":"2026-07-03T07:45:00.000Z","amountCents":250,"sku":"credit_pack"}
+{"id":"evt_013","type":"login","userId":"u_400","ts":"2026-07-03T14:00:00.000Z"}
+{"id":"evt_014","type":"logout","userId":"u_400","ts":"2026-07-03T14:05:00.000Z"}
+{"id":"evt_015","type":"purchase","userId":"u_100","ts":"2026-07-04T08:00:00.000Z","amountCents":1999,"sku":"plan_pro"}

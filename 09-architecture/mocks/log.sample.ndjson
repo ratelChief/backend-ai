@@ -1,0 +1,3 @@
+{"level":"info","msg":"request.completed","requestId":"req_01HZX","method":"GET","path":"/posts","status":200,"durationMs":42}
+{"level":"info","msg":"cache.miss","requestId":"req_01HZX","key":"feed:page:1"}
+{"level":"error","msg":"storage.put_failed","requestId":"req_01HYA","code":"S3_UNAVAILABLE","err":"connect ECONNREFUSED"}

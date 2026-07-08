@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "email": "owner@acme.test",
+      "name": "Olga Owner",
+      "password": "OwnerPass123!"
+    },
+    {
+      "email": "member@acme.test",
+      "name": "Mark Member",
+      "password": "MemberPass123!"
+    },
+    {
+      "email": "outsider@other.test",
+      "name": "Oscar Outsider",
+      "password": "OutsiderPass123!"
+    }
+  ],
+  "workspaces": [
+    {
+      "slug": "acme",
+      "name": "Acme Team",
+      "ownerEmail": "owner@acme.test",
+      "memberEmails": ["member@acme.test"]
+    },
+    {
+      "slug": "other",
+      "name": "Other Corp",
+      "ownerEmail": "outsider@other.test",
+      "memberEmails": []
+    }
+  ],
+  "tasks": [
+    {
+      "workspaceSlug": "acme",
+      "title": "Draft API OpenAPI",
+      "status": "doing",
+      "assigneeEmail": "member@acme.test",
+      "createdByEmail": "owner@acme.test"
+    },
+    {
+      "workspaceSlug": "acme",
+      "title": "Write e2e isolation tests",
+      "status": "todo",
+      "assigneeEmail": "owner@acme.test",
+      "createdByEmail": "owner@acme.test"
+    },
+    {
+      "workspaceSlug": "other",
+      "title": "Secret other-corp task",
+      "status": "todo",
+      "assigneeEmail": "outsider@other.test",
+      "createdByEmail": "outsider@other.test"
+    }
+  ],
+  "pendingInvites": [
+    {
+      "workspaceSlug": "acme",
+      "email": "newbie@acme.test",
+      "token": "invite_token_demo_acme_newbie",
+      "expiresAt": "2026-12-31T23:59:59.000Z"
+    }
+  ]
+}

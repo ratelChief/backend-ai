@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": "usr_alice",
+      "email": "alice@example.com",
+      "name": "Alice Writer"
+    },
+    {
+      "id": "usr_bob",
+      "email": "bob@example.com",
+      "name": "Bob Editor"
+    },
+    {
+      "id": "usr_cara",
+      "email": "cara@example.com",
+      "name": "Cara Reader"
+    }
+  ],
+  "tags": [
+    { "id": "tag_nest", "slug": "nestjs", "name": "NestJS" },
+    { "id": "tag_sql", "slug": "sql", "name": "SQL" },
+    { "id": "tag_perf", "slug": "performance", "name": "Performance" },
+    { "id": "tag_dx", "slug": "dx", "name": "Developer Experience" }
+  ],
+  "posts": [
+    {
+      "id": "post_01",
+      "title": "Avoiding N+1 in Nest",
+      "body": "Use include/select wisely. Log queries in development.",
+      "authorId": "usr_alice",
+      "publishedAt": "2026-05-01T10:00:00.000Z",
+      "tagSlugs": ["nestjs", "performance", "sql"]
+    },
+    {
+      "id": "post_02",
+      "title": "Migrations as a habit",
+      "body": "Never edit production schema by hand.",
+      "authorId": "usr_bob",
+      "publishedAt": "2026-05-03T12:00:00.000Z",
+      "tagSlugs": ["sql", "dx"]
+    },
+    {
+      "id": "post_03",
+      "title": "Soft delete pitfalls",
+      "body": "Unique constraints and soft-deleted rows.",
+      "authorId": "usr_alice",
+      "publishedAt": "2026-05-10T09:30:00.000Z",
+      "tagSlugs": ["sql"]
+    },
+    {
+      "id": "post_04",
+      "title": "Transactional create",
+      "body": "Post + tags must commit together.",
+      "authorId": "usr_bob",
+      "publishedAt": "2026-05-12T16:45:00.000Z",
+      "tagSlugs": ["nestjs", "dx"]
+    }
+  ],
+  "comments": [
+    {
+      "id": "cmt_01",
+      "postId": "post_01",
+      "authorId": "usr_cara",
+      "body": "Do you prefer Prisma include or raw SQL joins?",
+      "createdAt": "2026-05-01T15:00:00.000Z"
+    },
+    {
+      "id": "cmt_02",
+      "postId": "post_01",
+      "authorId": "usr_bob",
+      "body": "Logging query count in tests helps catch regressions.",
+      "createdAt": "2026-05-01T16:00:00.000Z"
+    },
+    {
+      "id": "cmt_03",
+      "postId": "post_02",
+      "authorId": "usr_alice",
+      "body": "Seed scripts saved our onboarding time.",
+      "createdAt": "2026-05-04T08:00:00.000Z"
+    },
+    {
+      "id": "cmt_04",
+      "postId": "post_04",
+      "authorId": "usr_cara",
+      "body": "What isolation level do you use?",
+      "createdAt": "2026-05-13T11:00:00.000Z"
+    }
+  ]
+}

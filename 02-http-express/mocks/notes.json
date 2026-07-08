@@ -1,0 +1,66 @@
+[
+  {
+    "id": "note_01",
+    "title": "Event loop refresher",
+    "body": "Call stack, microtasks, setImmediate vs nextTick.",
+    "tags": ["node", "async"],
+    "createdAt": "2026-06-01T10:00:00.000Z",
+    "updatedAt": "2026-06-01T10:00:00.000Z"
+  },
+  {
+    "id": "note_02",
+    "title": "REST checklist",
+    "body": "Idempotent methods, proper status codes, pagination.",
+    "tags": ["http", "api"],
+    "createdAt": "2026-06-02T11:30:00.000Z",
+    "updatedAt": "2026-06-02T12:00:00.000Z"
+  },
+  {
+    "id": "note_03",
+    "title": "Validation ideas",
+    "body": "Reject empty title; tags max 10; body max 10k chars.",
+    "tags": ["validation"],
+    "createdAt": "2026-06-03T09:15:00.000Z",
+    "updatedAt": "2026-06-03T09:15:00.000Z"
+  },
+  {
+    "id": "note_04",
+    "title": "CORS for SPA",
+    "body": "Allow localhost frontend origins in development.",
+    "tags": ["http", "cors"],
+    "createdAt": "2026-06-04T14:00:00.000Z",
+    "updatedAt": "2026-06-04T14:20:00.000Z"
+  },
+  {
+    "id": "note_05",
+    "title": "Request ID",
+    "body": "Propagate X-Request-Id from client or generate UUID.",
+    "tags": ["logging", "ops"],
+    "createdAt": "2026-06-05T08:45:00.000Z",
+    "updatedAt": "2026-06-05T08:45:00.000Z"
+  },
+  {
+    "id": "note_06",
+    "title": "Nested todos",
+    "body": "Later stages will move notes to Nest + Postgres.",
+    "tags": ["roadmap", "nest"],
+    "createdAt": "2026-06-06T16:00:00.000Z",
+    "updatedAt": "2026-06-07T10:00:00.000Z"
+  },
+  {
+    "id": "note_07",
+    "title": "Filter by tag",
+    "body": "GET /notes?tag=http should return only matching notes.",
+    "tags": ["api", "http"],
+    "createdAt": "2026-06-08T12:00:00.000Z",
+    "updatedAt": "2026-06-08T12:00:00.000Z"
+  },
+  {
+    "id": "note_08",
+    "title": "Empty search",
+    "body": "q= with no matches returns empty array, not 404.",
+    "tags": ["api"],
+    "createdAt": "2026-06-09T13:00:00.000Z",
+    "updatedAt": "2026-06-09T13:00:00.000Z"
+  }
+]

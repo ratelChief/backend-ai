@@ -1,0 +1,8 @@
+{
+  "subscribers": [
+    { "email": "alice@example.com", "name": "Alice Writer" },
+    { "email": "bob@example.com", "name": "Bob Editor" },
+    { "email": "cara@example.com", "name": "Cara Reader" },
+    { "email": "digest-bot@example.com", "name": "Digest Bot" }
+  ]
+}

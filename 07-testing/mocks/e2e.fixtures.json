@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "email": "tester-a@example.com",
+      "name": "Tester A",
+      "role": "user",
+      "password": "TestPassA123!"
+    },
+    {
+      "email": "tester-b@example.com",
+      "name": "Tester B",
+      "role": "user",
+      "password": "TestPassB123!"
+    },
+    {
+      "email": "tester-admin@example.com",
+      "name": "Tester Admin",
+      "role": "admin",
+      "password": "TestPassAdmin123!"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Owned by A",
+      "body": "Only A or admin should mutate.",
+      "tagSlugs": ["nestjs"]
+    }
+  ]
+}

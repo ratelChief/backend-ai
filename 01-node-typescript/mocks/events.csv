@@ -1,0 +1,11 @@
+id,type,userId,ts,amountCents,sku
+evt_001,login,u_100,2026-07-01T08:00:00.000Z,,
+evt_002,purchase,u_100,2026-07-01T08:05:12.000Z,1999,plan_pro
+evt_003,logout,u_100,2026-07-01T08:10:00.000Z,,
+evt_004,login,u_200,2026-07-01T09:00:00.000Z,,
+evt_005,purchase,u_200,2026-07-01T09:22:01.000Z,499,addon_storage
+evt_006,purchase,u_200,2026-07-01T09:30:00.000Z,0,trial
+evt_007,login,u_300,2026-07-02T10:00:00.000Z,,
+evt_008,logout,u_200,2026-07-02T11:00:00.000Z,,
+evt_009,purchase,u_300,2026-07-02T12:15:00.000Z,9999,plan_business
+evt_010,logout,u_300,2026-07-02T18:00:00.000Z,,
