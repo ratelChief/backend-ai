@@ -1,0 +1,20 @@
+{
+  "id": "chatcmpl-mock-openai-001",
+  "object": "chat.completion",
+  "model": "gpt-4o-mini",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Redis stores data in memory for fast reads and writes. It is commonly used for caching, message queues, and real-time features."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 42,
+    "completion_tokens": 28,
+    "total_tokens": 70
+  }
+}

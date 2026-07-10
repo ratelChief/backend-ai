@@ -1,0 +1,27 @@
+[
+  {
+    "id": "req_openai_summarize",
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "messages": [
+      { "role": "system", "content": "You summarize text in 2 sentences." },
+      { "role": "user", "content": "Redis is an in-memory data store used for caching, queues, and pub/sub." }
+    ]
+  },
+  {
+    "id": "req_anthropic_explain",
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-20250514",
+    "messages": [
+      { "role": "user", "content": "Explain JWT access vs refresh tokens in plain language." }
+    ]
+  },
+  {
+    "id": "req_gemini_classify",
+    "provider": "gemini",
+    "model": "gemini-2.0-flash",
+    "messages": [
+      { "role": "user", "content": "Classify sentiment as positive|neutral|negative: \"Deploy went smooth, zero downtime.\"" }
+    ]
+  }
+]

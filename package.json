@@ -11,6 +11,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
+    "report": "tsx ./01-node-typescript/cli.ts",
     "stage:01": "echo \"Work in 01-node-typescript — see TASK.md\"",
     "stage:02": "echo \"Work in 02-http-express — see TASK.md\"",
     "stage:03": "echo \"Work in 03-nestjs-foundation — see TASK.md\"",
@@ -20,7 +21,10 @@
     "stage:07": "echo \"Work in 07-testing — see TASK.md\"",
     "stage:08": "echo \"Work in 08-docker-cicd — see TASK.md\"",
     "stage:09": "echo \"Work in 09-architecture — see TASK.md\"",
-    "stage:10": "echo \"Work in 10-capstone — see TASK.md\""
+    "stage:10": "echo \"Work in 10-capstone — see TASK.md\"",
+    "stage:11": "echo \"Work in 11-redis-fundamentals — see TASK.md\"",
+    "stage:12": "echo \"Work in 12-llm-apis — see TASK.md\"",
+    "stage:13": "echo \"Work in 13-llm-production — see TASK.md\""
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

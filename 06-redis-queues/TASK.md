@@ -4,6 +4,8 @@
 
 Кэш ленты, очередь email-дайджеста (mock SMTP), WebSocket-уведомления о новых постах.
 
+> Рекомендуется пройти **`11-redis-fundamentals`** перед этим этапом, если Redis ещё не знаком.
+
 ## Темы
 
 - Redis cache-aside, TTL, invalidation

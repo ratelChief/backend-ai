@@ -1,0 +1,5 @@
+[
+  { "channel": "feed.events", "event": "post.created", "payload": { "postId": "post_99", "authorId": "usr_cara" } },
+  { "channel": "feed.events", "event": "post.updated", "payload": { "postId": "post_01", "title": "New title" } },
+  { "channel": "feed.events", "event": "comment.created", "payload": { "commentId": "cmt_42", "postId": "post_01" } }
+]

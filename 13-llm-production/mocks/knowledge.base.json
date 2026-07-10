@@ -1,0 +1,22 @@
+[
+  {
+    "id": "kb_redis_cache",
+    "title": "Redis cache-aside",
+    "text": "Read from cache first. On miss, load from DB, write to cache with TTL, return data. Invalidate on writes."
+  },
+  {
+    "id": "kb_jwt_refresh",
+    "title": "JWT refresh rotation",
+    "text": "Issue short-lived access tokens and long-lived refresh tokens. Rotate refresh on use and revoke on logout."
+  },
+  {
+    "id": "kb_llm_rate_limit",
+    "title": "LLM rate limits",
+    "text": "Handle HTTP 429 with exponential backoff. Track token usage per user. Set max tokens per request."
+  },
+  {
+    "id": "kb_nest_modules",
+    "title": "NestJS modules",
+    "text": "Group controllers, providers, and imports by domain. Export only what other modules need."
+  }
+]

@@ -6,7 +6,7 @@
 
 ## Как пользоваться
 
-1. Иди по папкам `01-…` → `10-…` по порядку.
+1. Иди по папкам `01-…` → `13-…` по порядку (этапы `11-13` — расширение: Redis + LLM).
 2. В каждой папке читай `TASK.md`, используй `mocks/` если есть.
 3. Решение клади в ту же папку (`src/`, `app/` и т.д.) — структуру выбирай сам в рамках задачи.
 4. Критерии «готово» в конце каждого `TASK.md` — чеклист перед переходом дальше.
@@ -28,11 +28,19 @@ npm run typecheck
 | 03 | `03-nestjs-foundation` | NestJS foundation |
 | 04 | `04-postgres-orm` | PostgreSQL + ORM |
 | 05 | `05-auth-security` | Auth, JWT, RBAC |
-| 06 | `06-redis-queues` | Redis, BullMQ, WebSockets |
+| 06 | `06-redis-queues` | Redis в Nest: кэш, BullMQ, WebSockets |
 | 07 | `07-testing` | Unit / e2e tests |
 | 08 | `08-docker-cicd` | Docker, CI/CD |
 | 09 | `09-architecture` | Architecture & production habits |
 | 10 | `10-capstone` | Fullstack portfolio project |
+| 11 | `11-redis-fundamentals` | Redis: структуры данных, TTL, pub/sub |
+| 12 | `12-llm-apis` | LLM APIs: OpenAI, Anthropic, Gemini |
+| 13 | `13-llm-production` | Streaming, tools, RAG, кэш LLM в Redis |
+
+### Рекомендуемый порядок для Redis / LLM
+
+- **Redis:** `11` → `06` → `13` (сначала основы, потом Nest, потом кэш LLM)
+- **LLM:** `12` → `13` → опционально в `10-capstone`
 
 ## Рекомендации
 

@@ -10,3 +10,6 @@
 | 08 | `08-docker-cicd` | [ ] |
 | 09 | `09-architecture` | [ ] |
 | 10 | `10-capstone` | [ ] |
+| 11 | `11-redis-fundamentals` | [ ] |
+| 12 | `12-llm-apis` | [ ] |
+| 13 | `13-llm-production` | [ ] |
