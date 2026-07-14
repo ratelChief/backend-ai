@@ -1,0 +1,12 @@
+{
+  "total": 10,
+  "valid": 10,
+  "invalid": 0,
+  "byType": {
+    "login": 3,
+    "purchase": 4,
+    "logout": 3
+  },
+  "revenueCents": 12497,
+  "errors": []
+}

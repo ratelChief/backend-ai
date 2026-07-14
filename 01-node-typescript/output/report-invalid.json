@@ -1,0 +1,33 @@
+{
+  "total": 6,
+  "valid": 1,
+  "invalid": 5,
+  "byType": {
+    "login": 0,
+    "purchase": 0,
+    "logout": 1
+  },
+  "revenueCents": 0,
+  "errors": [
+    {
+      "line": 1,
+      "message": "Invalid input: expected string, received undefined"
+    },
+    {
+      "line": 2,
+      "message": "Invalid JSON"
+    },
+    {
+      "line": 3,
+      "message": "Invalid discriminator value. Expected 'login' | 'logout' | 'purchase'"
+    },
+    {
+      "line": 4,
+      "message": "Invalid input: expected number, received string"
+    },
+    {
+      "line": 6,
+      "message": "Invalid input: expected string, received undefined"
+    }
+  ]
+}
